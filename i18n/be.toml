@@ -1,0 +1,32 @@
+[menu]
+other = "Menu"
+
+[learnmore]
+other = "Meer"
+
+[name]
+other = "Naam"
+
+[email]
+other = "E-Mail"
+
+[phone]
+other = "Telefoon"
+
+[address]
+other = "Adres"
+
+[yourmessage]
+other = "Uw Bericht"
+
+[send]
+other = "stuur"
+
+[reset]
+other = "reset"
+
+[allarticles]
+other = "Alle Artikelen"
+
+[readmore]
+other = "Meer lezen..."
