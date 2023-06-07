@@ -1,4 +1,150 @@
-baseURL = 'https://www.byteworx.be'
-languageCode = 'en-us'
-title = 'byteworx'
-theme = 'spectral'
+baseURL = "https://byteworx.be"
+title = "Byteworx"
+languageCode = "nl-BE"
+defaultContentLanguage = "be"
+paginate = "7"
+
+[params]
+fancyTitle = "Byteworx" # title for frontpage, may include image
+copyright = "Byteworx.be"
+description = 'Jou succes is onze missie.'
+startbuttonText = "Over ons"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Haal het beste uit jezelf.<br />'
+body = '''
+ Bij Byteworx geloven we in jouw talenten. Daarom staat het uitbreiden en bijschaven van jou skills bij ons centraal.<br/>
+ We doen dit door een individueel ontwikkeltraject uit te stippelen met als doel je te laten uitgroeien tot een ontwikkelaar waar andere op kunnen rekenen.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Afterwork activiteiten.'
+body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap,...'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Ontwikkel je skills.'
+body = 'Onder het motto een dag niet geleerd is een dag niet geleefd, organiseren we regelmatig een hackathon of workshop rond een bepaalde technologie.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'De beste voorwaarden.'
+body = 'Door onze vlakke structuur en lage overhead kunnen we de beste condities aanbieden in de markt.<br/> We geloven in eerlijke verloning voor eerlijk werk.'
+
+[params.three]
+enable = true
+title = 'Onze kernwaarden.'
+body = '''
+Principes om naar te leven.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Zelfontplooiing"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Persoonlijke aanpak"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Feel good"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Loon naar werk"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Vertrouwen"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Vlakke structuur"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Nu is het aan jou."
+body = "Kun je jezelf vinden in onze kernwaarden en wil je ervaren hoe het is om te werken voor een bedrijf dat jou centraal stelt.<br/> Aarzel dan niet en neem contact op."
+
+[[params.cta.link]]
+href = "#"
+text = "Contacteer"
+special = true
+
+[[params.cta.link]]
+href = "/posts/"
+text = "Posts"
+special = false
+
+[params.contact]
+enable = true
+title = "Contacteer ons"
+body = "Laat ons een bericht na of stuur ons via WhatsApp."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 10
+languageName = "English"
+
+[languages.be]
+weight = 0
+languageName = "Dutch"
