@@ -7,7 +7,7 @@ paginate = "7"
 [params]
 fancyTitle = "Byteworx" # title for frontpage, may include image
 copyright = "Byteworx.be"
-description = 'Jou succes is onze missie.'
+description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
 startbuttonLink = "#"
 body_is_markdown = true
@@ -108,7 +108,7 @@ body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidun
 [params.cta]
 enable = true
 title = "Nu is het aan jou."
-body = "Kun je jezelf vinden in onze kernwaarden en wil je ervaren hoe het is om te werken voor een bedrijf dat jou centraal stelt.<br/> Aarzel dan niet en neem contact op."
+body = "Ben jij een Java of iOS ontwikkelaar en kan je jezelf vinden in onze kernwaarden en wil je ervaren hoe het is om te werken voor een bedrijf dat jou centraal stelt.<br/> Aarzel dan niet en neem contact op."
 
 [[params.cta.link]]
 href = "#"
@@ -124,10 +124,10 @@ special = false
 enable = true
 title = "Contacteer ons"
 body = "Laat ons een bericht na of stuur ons via WhatsApp."
-phone = "+49 (0) 030 000 000"
+phone = "0032456648266"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
-subject = "New Submission!"
+email = "info@byteworx.be"
+subject = ""
 formspree_form_id = "example_invalid"
 
 [params.social]
