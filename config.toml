@@ -9,7 +9,7 @@ fancyTitle = "Byteworx" # title for frontpage, may include image
 copyright = "Byteworx.be"
 description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
-startbuttonLink = "#"
+startbuttonLink = "/posts/"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -111,7 +111,7 @@ title = "Nu is het aan jou."
 body = "Ben jij een Java of iOS ontwikkelaar en kan je jezelf vinden in onze kernwaarden en wil je ervaren hoe het is om te werken voor een bedrijf dat jou centraal stelt.<br/> Aarzel dan niet en neem contact op."
 
 [[params.cta.link]]
-href = "#"
+href = "https://wa.me/32456648266"
 text = "Contacteer"
 special = true
 
@@ -121,9 +121,9 @@ text = "Posts"
 special = false
 
 [params.contact]
-enable = true
+enable = false
 title = "Contacteer ons"
-body = "Laat ons een bericht na of stuur ons via WhatsApp."
+body = "Laat een bericht na of stuur ons via WhatsApp."
 phone = "32456648266"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@byteworx.be"
