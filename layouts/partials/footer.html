@@ -26,6 +26,7 @@
               <li><a href="mailto:{{ . }}" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
               {{ end }}
               {{ with .Site.Params.contact.phone }}
+              <li><a href="https://wa.me/{{ . }}" class="icon solid fa-whatsapp"><span class="label">WhatsApp</span></a></li>
               <li><a href="tel:{{ . }}" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
               {{ end }}
 
