@@ -54,17 +54,17 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
+img = "img/pic01.webp"
 title = 'Afterwork activiteiten.'
 body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap,...'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
+img = "img/pic02.webp"
 title = 'Ontwikkel je skills.'
 body = 'Onder het motto een dag niet geleerd is een dag niet geleefd, organiseren we regelmatig een hackathon of workshop rond een bepaalde technologie.'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
+img = "img/pic03.webp"
 title = 'De beste voorwaarden.'
 body = 'Door onze vlakke structuur en lage overhead kunnen we de beste condities aanbieden in de markt.<br/> We geloven in eerlijke verloning voor eerlijk werk.'
 
@@ -124,7 +124,7 @@ special = false
 enable = true
 title = "Contacteer ons"
 body = "Laat ons een bericht na of stuur ons via WhatsApp."
-phone = "0032456648266"
+phone = "32456648266"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@byteworx.be"
 subject = ""
