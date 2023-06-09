@@ -9,7 +9,7 @@ fancyTitle = "Byteworx" # title for frontpage, may include image
 copyright = "Byteworx.be"
 description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
-startbuttonLink = "#"
+startbuttonLink = "/posts/"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -78,32 +78,32 @@ Principes om naar te leven.
 [[params.three.feature]]
 icon = "fa-paper-plane"
 title = "Zelfontplooiing"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+body = "Samen kijken we waar je technische kennis bijgeschaafd kan worden zodat je vol zelfvertrouwen aan je opdracht kan beginnen."
 
 [[params.three.feature]]
 icon = "solid fa-laptop"
 title = "Persoonlijke aanpak"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+body = "Bij ons ben je geen nummer. Een luisterend oor, een technische uitdaging op det werk of nood aan een gesprek. We staan telkens klaar om je te begeleiden."
 
 [[params.three.feature]]
 icon = "solid fa-code"
 title = "Feel good"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+body = "We doen alles voor een ideale work-life balance en streven er naar om een hechte groep professionals te creëren."
 
 [[params.three.feature]]
 icon = "solid fa-headphones-alt"
 title = "Loon naar werk"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+body = "Transparante, eerlijke verloning op maat is onze standaard aanpak."
 
 [[params.three.feature]]
 icon = "fa-heart"
-title = "Vertrouwen"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Professionalisme"
+body = "We helpen je uit te groeien tot een expert professional door te investeren in jou ontwikkeling."
 
 [[params.three.feature]]
 icon = "fa-flag"
 title = "Vlakke structuur"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+body = "We geloven niet in een top down structuur en proberen iedereen aanspeekbaar te maken. Heb je een probleem of zit je met iets dan vind je bij ieder van ons een luisterend oor."
 
 [params.cta]
 enable = true
@@ -111,7 +111,7 @@ title = "Nu is het aan jou."
 body = "Ben jij een Java of iOS ontwikkelaar en kan je jezelf vinden in onze kernwaarden en wil je ervaren hoe het is om te werken voor een bedrijf dat jou centraal stelt.<br/> Aarzel dan niet en neem contact op."
 
 [[params.cta.link]]
-href = "#"
+href = "https://wa.me/32456648266"
 text = "Contacteer"
 special = true
 
@@ -121,9 +121,9 @@ text = "Posts"
 special = false
 
 [params.contact]
-enable = true
+enable = false
 title = "Contacteer ons"
-body = "Laat ons een bericht na of stuur ons via WhatsApp."
+body = "Laat een bericht na of stuur ons via WhatsApp."
 phone = "32456648266"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@byteworx.be"
