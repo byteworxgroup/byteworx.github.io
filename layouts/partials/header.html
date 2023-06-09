@@ -40,15 +40,15 @@
 
 				<!-- Header -->
           <header id="header"{{ if .Page.IsHome }} class="alt"{{ end }}>
-            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <h1><a aria-label="header title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
-                  <a href="#menu" class="menuToggle"><span>{{ i18n "menu" }}</span></a>
+                  <a aria-label="menuToggle" href="#menu" class="menuToggle"><span>{{ i18n "menu" }}</span></a>
 									<div id="menu">
 										<ul>
 				              {{ range .Site.Params.menu.main }}
-				              <li><a href="{{ .url | relURL }}">{{ .title }}</a></li>
+				              <li><a aria-label="menu title" href="{{ .url | relURL }}">{{ .title }}</a></li>
 				              {{ end }}
 										</ul>
 									</div>
