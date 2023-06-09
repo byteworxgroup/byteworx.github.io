@@ -1925,7 +1925,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #0090e3;
+			box-shadow: 0 0 0 2px #084264;
 		}
 
 	select {
@@ -2022,7 +2022,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #0090e3;
+			box-shadow: 0 0 0 2px #084264;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2883,7 +2883,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #0090e3;
+			background-color: #084264;
 			color: #ffffff;
 		}
 
@@ -2937,7 +2937,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #0090e3;
+					background: #084264;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2953,7 +2953,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #0090e3;
+				color: #084264;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3046,7 +3046,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #0090e3;
+			background-color: #084264;
 			color: #d3d4e4;
 		}
 
@@ -3100,7 +3100,7 @@ input, select, textarea {
 
 				.wrapper.style3 select option {
 					color: #ffffff;
-					background: #0090e3;
+					background: #084264;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3116,7 +3116,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #0090e3;
+				color: #084264;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3417,7 +3417,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #0090e3;
+		background: #084264;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
