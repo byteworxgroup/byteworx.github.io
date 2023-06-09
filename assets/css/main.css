@@ -6,6 +6,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
        url('../fonts/open-sans-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -16,6 +17,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
        url('../fonts/open-sans-v16-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -26,6 +28,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
        url('../fonts/open-sans-v16-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -36,6 +39,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 600;
+  font-display: swap;
   src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
        url('../fonts/open-sans-v16-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -46,6 +50,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
        url('../fonts/open-sans-v16-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -56,6 +61,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 800;
+  font-display: swap;
   src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
        url('../fonts/open-sans-v16-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v16-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -1919,7 +1925,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #3cb3ff;
+			box-shadow: 0 0 0 2px #0090e3;
 		}
 
 	select {
@@ -2016,7 +2022,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #3cb3ff;
+			box-shadow: 0 0 0 2px #0090e3;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2877,8 +2883,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #3cb3ff;
-			color: #c8ece9;
+			background-color: #0090e3;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2910,7 +2916,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -2931,12 +2937,12 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #3cb3ff;
+					background: #0090e3;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2947,7 +2953,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #3cb3ff;
+				color: #0090e3;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3040,7 +3046,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #3cb3ff;
+			background-color: #0090e3;
 			color: #d3d4e4;
 		}
 
@@ -3094,7 +3100,7 @@ input, select, textarea {
 
 				.wrapper.style3 select option {
 					color: #ffffff;
-					background: #3cb3ff;
+					background: #0090e3;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3110,7 +3116,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #3cb3ff;
+				color: #0090e3;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3411,7 +3417,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #3cb3ff;
+		background: #0090e3;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
