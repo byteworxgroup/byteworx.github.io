@@ -121,14 +121,14 @@ text = "Posts"
 special = false
 
 [params.contact]
-enable = false
+enable = true
 title = "Contacteer ons"
 body = "Laat een bericht na of stuur ons via WhatsApp."
 phone = "32456648266"
-address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+address = "Ranstsebinnenweg 21<br />2520 Ranst<br /> België"
 email = "info@byteworx.be"
-subject = ""
-formspree_form_id = "example_invalid"
+subject = "Byteworx website formulier"
+formspree_form_id = "xrgvwvwk"
 
 [params.social]
 twitter = ""
