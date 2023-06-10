@@ -9,7 +9,7 @@ fancyTitle = "Byteworx" # title for frontpage, may include image
 copyright = "Byteworx.be"
 description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
-startbuttonLink = "/posts/"
+startbuttonLink = "#one"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -19,8 +19,8 @@ url = '/'
 title = "Home"
 
 [[params.menu.main]]
-url = '/posts/'
-title = "Posts"
+url = '#one'
+title = "Over ons"
 
 [taxonomies]
     tag = "tags"
@@ -116,8 +116,8 @@ text = "Contacteer"
 special = true
 
 [[params.cta.link]]
-href = "/posts/"
-text = "Posts"
+href = "#three"
+text = "Over ons"
 special = false
 
 [params.contact]
