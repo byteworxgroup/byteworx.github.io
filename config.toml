@@ -86,17 +86,17 @@ title = "Persoonlijke aanpak"
 body = "Bij ons ben je geen nummer. Een luisterend oor, een technische uitdaging, we staan telkens klaar om je te begeleiden."
 
 [[params.three.feature]]
-icon = "solid fa-code"
+icon = "fa-heart"
 title = "Feel good"
 body = "We doen alles voor een ideale work-life balance en streven er naar om een hechte groep professionals te creëren."
 
 [[params.three.feature]]
-icon = "solid fa-headphones-alt"
+icon = "solid fa-code"
 title = "Loon naar werk"
 body = "Transparante, eerlijke verloning op maat is onze standaard aanpak."
 
 [[params.three.feature]]
-icon = "fa-heart"
+icon = "solid fa-headphones-alt"
 title = "Professionalisme"
 body = "We helpen je uit te groeien tot een expert professional door te investeren in jou ontwikkeling."
 
