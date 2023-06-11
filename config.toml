@@ -31,7 +31,7 @@ title = "Over ons"
 enable = true
 title = 'Haal het beste uit jezelf.<br />'
 body = '''
- Bij Byteworx geloven we in jouw talenten. Daarom staat het uitbreiden en bijschaven van jou skills bij ons centraal.<br/>
+ Bij Byteworx geloven we in jouw talenten. Daarom staat het uitbreiden en bijschaven van jouw skills bij ons centraal.<br/>
  We doen dit door een individueel ontwikkeltraject uit te stippelen met als doel je te laten uitgroeien tot een ontwikkelaar waar andere op kunnen rekenen.
 '''
 
@@ -56,7 +56,7 @@ enable = true
 [[params.two.section]]
 img = "img/pic01.webp"
 title = 'Afterwork activiteiten.'
-body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap,...'
+body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap, ...'
 
 [[params.two.section]]
 img = "img/pic02.webp"
@@ -66,7 +66,7 @@ body = 'Onder het motto een dag niet geleerd is een dag niet geleefd, organisere
 [[params.two.section]]
 img = "img/pic03.webp"
 title = 'De beste voorwaarden.'
-body = 'Door onze vlakke structuur en lage overhead kunnen we de beste condities aanbieden in de markt.<br/> We geloven in eerlijke verloning voor eerlijk werk.'
+body = 'Dankzij onze vlakke structuur en lage overhead kunnen we de beste condities aanbieden in de markt.<br/> We geloven in eerlijke verloning voor eerlijk werk.'
 
 [params.three]
 enable = true
@@ -88,7 +88,7 @@ body = "Bij ons ben je geen nummer. Een luisterend oor, een technische uitdaging
 [[params.three.feature]]
 icon = "fa-heart"
 title = "Feel good"
-body = "We doen alles voor een ideale work-life balance en streven er naar om een hechte groep professionals te creëren."
+body = "We doen alles voor een ideale work-lifebalance en streven ernaar om een hechte groep professionals te creëren."
 
 [[params.three.feature]]
 icon = "solid fa-code"
@@ -98,12 +98,12 @@ body = "Transparante, eerlijke verloning op maat is onze standaard aanpak."
 [[params.three.feature]]
 icon = "solid fa-laptop"
 title = "Professionalisme"
-body = "We helpen je uit te groeien tot een expert professional door te investeren in jou ontwikkeling."
+body = "We helpen je uit te groeien tot een expert professional door te investeren in jouw ontwikkeling."
 
 [[params.three.feature]]
 icon = "fa-flag"
 title = "Vlakke structuur"
-body = "We geloven niet in een top down structuur en proberen iedereen aanspeekbaar te maken. Heb je een probleem of zit je met iets dan vind je bij ieder van ons een luisterend oor."
+body = "We geloven niet in een top-down structuur en proberen iedereen aanspreekbaar te maken. Heb je een probleem of zit je met iets dan vind je bij ieder van ons een luisterend oor."
 
 [params.cta]
 enable = true
