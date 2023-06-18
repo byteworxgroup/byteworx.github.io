@@ -1,5 +1,5 @@
 baseURL = "https://byteworx.be"
-title = "Byteworx"
+title = "Byteworx | Byteworx IT consultancy - Connecting professionals"
 languageCode = "nl-BE"
 defaultContentLanguage = "be"
 paginate = "7"
@@ -7,6 +7,7 @@ paginate = "7"
 [params]
 fancyTitle = "Byteworx" # title for frontpage, may include image
 copyright = "Byteworx.be"
+description2 = "Byteworx is een next-level IT-consultancy organisatie die zich inzet om klanten te verbinden met kwalitatieve, gepassioneerde softwareontwikkelaars. Onze missie bestaat er uit om klanten en werknemers tevredenheid te maximaliseren."
 description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
 startbuttonLink = "#one"
@@ -54,14 +55,14 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.webp"
-title = 'Afterwork activiteiten.'
-body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap, ...'
-
-[[params.two.section]]
 img = "img/pic02.webp"
 title = 'Ontwikkel je skills.'
 body = 'Onder het motto een dag niet geleerd is een dag niet geleefd, organiseren we regelmatig een hackathon of workshop rond een bepaalde technologie.'
+
+[[params.two.section]]
+img = "img/pic01.webp"
+title = 'Afterwork activiteiten.'
+body = 'We zetten in op het vormen van een hechte groep. Dit doen we door regelmatig een afterwork activiteit te organiseren, <br/>denk aan een barbecue, karting event, uitstap, ...'
 
 [[params.two.section]]
 img = "img/pic03.webp"
