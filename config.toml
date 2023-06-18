@@ -1,5 +1,5 @@
 baseURL = "https://byteworx.be"
-title = "Byteworx | Byteworx IT consultancy - Connecting professionals"
+title = "Byteworx IT consultancy - Connecting professionals"
 languageCode = "nl-BE"
 defaultContentLanguage = "be"
 paginate = "7"
@@ -10,7 +10,7 @@ copyright = "Byteworx.be"
 description2 = "Byteworx is een next-level IT-consultancy organisatie die zich inzet om klanten te verbinden met kwalitatieve, gepassioneerde softwareontwikkelaars. Onze missie bestaat er uit om klanten en werknemers tevredenheid te maximaliseren."
 description = 'Next level Java en iOS IT consultancy.'
 startbuttonText = "Over ons"
-startbuttonLink = "#one"
+startbuttonLink = "#over-ons"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -20,7 +20,7 @@ url = '/'
 title = "Home"
 
 [[params.menu.main]]
-url = '#one'
+url = '#over-ons'
 title = "Over ons"
 
 [taxonomies]
@@ -117,8 +117,8 @@ text = "Contacteer"
 special = true
 
 [[params.cta.link]]
-href = "#three"
-text = "Over ons"
+href = "#kernwaarden"
+text = "Kernwaarden"
 special = false
 
 [params.contact]
